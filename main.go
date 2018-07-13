@@ -36,6 +36,7 @@ func main() {
 			AppName:            AppName,
 			AppIconDarwinPath:  "resources/icon.icns",
 			AppIconDefaultPath: "resources/icon.png",
+			//BaseDirectoryPath:"D:/GOPATH/src/yin/BingDesktop",
 		},
 		Debug:         false,
 		MenuOptions: []*astilectron.MenuItemOptions{{
@@ -70,6 +71,7 @@ func main() {
 			// 		astilog.Error(errors.Wrap(err, "sending check.out.menu event failed"))
 			// 	}
 			// }()
+			w.OpenDevTools()
 			return nil
 		},
 		RestoreAssets: RestoreAssets,
@@ -81,7 +83,7 @@ func main() {
 				Center:          astilectron.PtrBool(true),
 				Height:          astilectron.PtrInt(600),
 				Width:           astilectron.PtrInt(1000),
-				AlwaysOnTop:     astilectron.PtrBool(true),
+				//AlwaysOnTop:     astilectron.PtrBool(true),
 			},
 		}},
 	}); err != nil {

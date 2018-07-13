@@ -27,8 +27,8 @@ let index = {
             index.Test(true);
         })
     },
-    SaveImg:function () {
-
+    SaveImg:function (obj) {
+    console.log(obj);
     },
     Test:function (isFirst) {
         // Create message
@@ -59,6 +59,7 @@ let index = {
                 document.getElementById("idx").value=message.payload.idx;
                 document.getElementById("ti").innerText=message.payload.ti;
                 document.getElementById("bingimg").src=message.payload.img;
+                document.getElementById("saveImg").setAttribute("picurl",message.payload.img);
             })
             var timer = setInterval(function(){
                 if (document.getElementById('bingimg').complete){
