@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="static/css/base.css"/>
+    <link rel="stylesheet" href="static/lib/astiloader/astiloader.css">
+    <link rel="stylesheet" href="static/lib/astimodaler/astimodaler.css">
+    <link rel="stylesheet" href="static/lib/astinotifier/astinotifier.css">
+    <link rel="stylesheet" href="static/lib/font-awesome-4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div>
+        <h2 id="ti"></h2>
+        <input type="hidden" value="0" id="idx"><input type="button" id="saveImg" value="保存图片" style="padding: 5px 8px 5px 8px">
+        <input type="button" value="下一张" id="nextImg" onclick="index.Test(false)" style="padding: 5px 8px 5px 8px">
+        <img id="bingimg" width="100%" height="100%"/>
+    </div>
+    <script src="static/js/index.js"></script>
+    <script src="static/lib/astiloader/astiloader.js"></script>
+    <script src="static/lib/astimodaler/astimodaler.js"></script>
+    <script src="static/lib/astinotifier/astinotifier.js"></script>
+    <script type="text/javascript">
+        index.init();
+    </script>
+</body>
+</html>

@@ -1,0 +1,7 @@
+# Logs
+logs
+debug
+*.exe
+output
+bind_windows_amd64.go
+vendor
