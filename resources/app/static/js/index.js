@@ -27,8 +27,11 @@ let index = {
             index.Test(true);
         })
     },
-    SaveImg:function (obj) {
-    console.log(obj);
+    SaveImg:function (filename) {
+        //filename=document.getElementById("saveImg").getAttribute("picurl");
+        astilectron.showSaveDialog({title: "保存为"}, function(filename) {
+            console.log("chosen filename is ",filename);
+        })
     },
     Test:function (isFirst) {
         // Create message

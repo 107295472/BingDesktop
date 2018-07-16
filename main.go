@@ -71,7 +71,7 @@ func main() {
 			// 		astilog.Error(errors.Wrap(err, "sending check.out.menu event failed"))
 			// 	}
 			// }()
-			w.OpenDevTools()
+			//w.OpenDevTools()
 			return nil
 		},
 		RestoreAssets: RestoreAssets,
