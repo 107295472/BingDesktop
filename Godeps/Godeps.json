@@ -1,0 +1,138 @@
+{
+	"ImportPath": "yin/BingDesktop",
+	"GoVersion": "go1.10",
+	"GodepVersion": "v80",
+	"Deps": [
+		{
+			"ImportPath": "github.com/akavel/rsrc/binutil",
+			"Comment": "v2-14-gf6a15ec",
+			"Rev": "f6a15ece2cfd2560077c556499f19340ddc768e9"
+		},
+		{
+			"ImportPath": "github.com/akavel/rsrc/coff",
+			"Comment": "v2-14-gf6a15ec",
+			"Rev": "f6a15ece2cfd2560077c556499f19340ddc768e9"
+		},
+		{
+			"ImportPath": "github.com/akavel/rsrc/ico",
+			"Comment": "v2-14-gf6a15ec",
+			"Rev": "f6a15ece2cfd2560077c556499f19340ddc768e9"
+		},
+		{
+			"ImportPath": "github.com/akavel/rsrc/internal",
+			"Comment": "v2-14-gf6a15ec",
+			"Rev": "f6a15ece2cfd2560077c556499f19340ddc768e9"
+		},
+		{
+			"ImportPath": "github.com/akavel/rsrc/rsrc",
+			"Comment": "v2-14-gf6a15ec",
+			"Rev": "f6a15ece2cfd2560077c556499f19340ddc768e9"
+		},
+		{
+			"ImportPath": "github.com/asticode/go-astichartjs",
+			"Rev": "efebf848095edc23d8c03832f65b1f89076bbd85"
+		},
+		{
+			"ImportPath": "github.com/asticode/go-astilectron",
+			"Rev": "d0a0ea8afa2b570eca0a514bbc34dfabd9c90dba"
+		},
+		{
+			"ImportPath": "github.com/asticode/go-astilectron-bootstrap",
+			"Rev": "b3211646d2056d041dcc403e0ab57ad7d12449df"
+		},
+		{
+			"ImportPath": "github.com/asticode/go-astilectron-bundler",
+			"Rev": "956b5a01aeb573ba2f9e2822fdbcd66b8c256f02"
+		},
+		{
+			"ImportPath": "github.com/asticode/go-astilog",
+			"Rev": "9566758383acb7abb2836c0f54562c34eb84f8ed"
+		},
+		{
+			"ImportPath": "github.com/asticode/go-astitools/archive",
+			"Rev": "9b0151c7add6ba27869e155df185e9d6fd23a77f"
+		},
+		{
+			"ImportPath": "github.com/asticode/go-astitools/context",
+			"Rev": "9b0151c7add6ba27869e155df185e9d6fd23a77f"
+		},
+		{
+			"ImportPath": "github.com/asticode/go-astitools/exec",
+			"Rev": "9b0151c7add6ba27869e155df185e9d6fd23a77f"
+		},
+		{
+			"ImportPath": "github.com/asticode/go-astitools/http",
+			"Rev": "9b0151c7add6ba27869e155df185e9d6fd23a77f"
+		},
+		{
+			"ImportPath": "github.com/asticode/go-astitools/io",
+			"Rev": "9b0151c7add6ba27869e155df185e9d6fd23a77f"
+		},
+		{
+			"ImportPath": "github.com/asticode/go-astitools/os",
+			"Rev": "9b0151c7add6ba27869e155df185e9d6fd23a77f"
+		},
+		{
+			"ImportPath": "github.com/asticode/go-astitools/ptr",
+			"Rev": "9b0151c7add6ba27869e155df185e9d6fd23a77f"
+		},
+		{
+			"ImportPath": "github.com/asticode/go-astitools/regexp",
+			"Rev": "9b0151c7add6ba27869e155df185e9d6fd23a77f"
+		},
+		{
+			"ImportPath": "github.com/asticode/go-astitools/url",
+			"Rev": "9b0151c7add6ba27869e155df185e9d6fd23a77f"
+		},
+		{
+			"ImportPath": "github.com/asticode/go-bindata",
+			"Rev": "a0ff2567cfb70903282db057e799fd826784d41d"
+		},
+		{
+			"ImportPath": "github.com/julienschmidt/httprouter",
+			"Comment": "v1.1-63-gadbc77e",
+			"Rev": "adbc77eec0d91467376ca515bc3a14b8434d0f18"
+		},
+		{
+			"ImportPath": "github.com/mattn/go-colorable",
+			"Comment": "v0.0.9-13-g7dc3415",
+			"Rev": "7dc3415be66d7cc68bf0182f35c8d31f8d2ad8a7"
+		},
+		{
+			"ImportPath": "github.com/mattn/go-isatty",
+			"Comment": "v0.0.3-7-g6ca4dbf",
+			"Rev": "6ca4dbf54d38eea1a992b3c722a76a5d1c4cb25c"
+		},
+		{
+			"ImportPath": "github.com/pkg/errors",
+			"Comment": "v0.8.0-11-g30136e2",
+			"Rev": "30136e27e2ac8d167177e8a583aa4c3fea5be833"
+		},
+		{
+			"ImportPath": "github.com/sirupsen/logrus",
+			"Comment": "v1.0.4-13-gf4ee691",
+			"Rev": "f4ee69125072b22721efbe639bd0da9c9d19b8cc"
+		},
+		{
+			"ImportPath": "github.com/tidwall/gjson",
+			"Comment": "v1.1.2",
+			"Rev": "f123b340873a0084cb27267eddd8ff615115fbff"
+		},
+		{
+			"ImportPath": "github.com/tidwall/match",
+			"Rev": "1731857f09b1f38450e2c12409748407822dc6be"
+		},
+		{
+			"ImportPath": "golang.org/x/crypto/ssh/terminal",
+			"Rev": "a49355c7e3f8fe157a85be2f77e6e269a0f89602"
+		},
+		{
+			"ImportPath": "golang.org/x/sys/unix",
+			"Rev": "151529c776cdc58ddbe7963ba9af779f3577b419"
+		},
+		{
+			"ImportPath": "golang.org/x/sys/windows",
+			"Rev": "151529c776cdc58ddbe7963ba9af779f3577b419"
+		}
+	]
+}
